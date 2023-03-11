@@ -1,5 +1,6 @@
-$darker-background:#444;
-$dark-background:#222;
+$darker-background:#222;
+$dark-background:#444;
+$light-border: #43967b;
 $dark-border: #6b6b6b;
 $text-on-dark: #ccc;
 
@@ -36,6 +37,10 @@ button {
   color: $darker-background;
 }
 
+.dropdown-divider {
+  border-top: 1px solid $light-border;
+}
+
 .markdown-editor,
 .fs3-divider {
   background-color: $dark-background;
@@ -53,21 +58,64 @@ textarea, input {
 }
 
 .alert-info {
-  background-color: #21759e;
-  border-color: #21759e;
+  background-color: mix(black, #0dcaf0, 80%);
+  border-color: mix(black, #0dcaf0, 80%);
   color: $text-on-dark;
 }
 
 .alert-success {
-  background-color: #4d8834;
-  border-color: #4d8834;
+  background-color: mix(black, #198754, 80%);
+  border-color: mix(black, #198754, 80%);
+  color: $text-on-dark;
+}
+
+.alert-warning {
+  background-color: mix(black, #ffc107, 80%);
+  border-color: mix(black, #ffc107, 80%);
+  color: $text-on-dark;
+}
+
+.alert-danger {
+  background-color: mix(black, #dc3545, 80%);
+  border-color: mix(black, #dc3545, 80%);
+  color: $text-on-dark;
+}
+
+
+.btn-info {
+  background-color: mix(black, #0dcaf0, 60%);
+  border-color: $light-border;
   color: $text-on-dark;
 }
 
 .btn-success {
-  background-color: #327332;
-  border-color: #2e692e;
+  background-color: mix(black, #198754, 60%);
+  border-color: $light-border;
+  color: $text-on-dark;
 }
+
+.btn-warning {
+  background-color: mix(black, #ffc107, 60%);
+  border-color: $light-border;
+  color: $text-on-dark;
+}
+
+.btn-danger {
+  background-color: mix(black, #dc3545, 60%);
+  border-color: $light-border;
+  color: $text-on-dark;
+}
+
+.btn-secondary {
+  background-color: mix(black, #6c757d, 60%);  
+  border-color: $light-border;
+  color: $text-on-dark;
+}
+
+.btn-primary {
+  border-color: $light-border;
+}
+
 
 .panel-default > .panel-heading {
   background-color: $darker-background;
@@ -96,7 +144,19 @@ blockquote {
   background-color: $dark-background;
 }
 
+code {
+  color: #3C866E;
+}
+
 pre code {
-color: $text-color;
+color: #3C866E;
 width: 70%;
+}
+
+.toc, .log-box, .profile-box {
+  background-color: $dark-background;
+}
+
+.profile-divider {
+  background-color: #000000;
 }
