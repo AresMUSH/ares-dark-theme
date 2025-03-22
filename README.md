@@ -1,4 +1,4 @@
-This is the default AresMUSH theme modified to use a dark background.
+This is an alternate AresMUSH theme with a dark background. Since the default Ares theme is also dark now, it's probably not very useful.
 
 ## Installing
 
