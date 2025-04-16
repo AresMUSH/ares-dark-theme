@@ -1,4 +1,10 @@
-This is an alternate AresMUSH theme with a dark background. Since the default Ares theme is also dark now, it's probably not very useful.
+## Status
+
+**DEPRECATED** - Since the default Ares theme is now dark, this is probably not useful and is no longer being maintained.
+
+## Overview
+
+This is an alternate AresMUSH theme with a dark background.
 
 ## Installing
 
